@@ -6,6 +6,7 @@
 class code{
 	private:
 	public:
+		string code_string(string s);
 };
 
 #endif
