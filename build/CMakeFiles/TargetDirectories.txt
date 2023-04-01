@@ -1,3 +1,0 @@
-/home/am/w/rot13/rot13/build/CMakeFiles/app.dir
-/home/am/w/rot13/rot13/build/CMakeFiles/edit_cache.dir
-/home/am/w/rot13/rot13/build/CMakeFiles/rebuild_cache.dir
