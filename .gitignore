@@ -43,3 +43,6 @@
 ./build/compile_commands.json
 ./buildCTestTestfile.cmake
 ./build/_deps
+
+# Cmake Folder
+./build
