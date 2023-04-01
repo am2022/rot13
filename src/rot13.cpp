@@ -4,4 +4,6 @@
 using namespace std;
 
 int main(){
+    code c;
+    decode dc;
 }
