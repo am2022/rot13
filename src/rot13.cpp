@@ -11,7 +11,7 @@ int main(){
     string code;
 
     cout<<"enter the text that you want:";
-    cin>>code;
+    getline(cin, code);
     cout<<"result:"<<c.code_string(code);
 
     return 0;
