@@ -28,7 +28,9 @@ string code::code_string(string s){
         else if(isspace(buff)){
             out.append(1, buff);
         }
-        
+        else{
+            out.append(1, buff);
+        } 
     }
 
     return out;
