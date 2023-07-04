@@ -5,8 +5,13 @@
 #include <iostream>
 #include <fstream>
 
-class file{
+using namespace std;
 
+class file{
+    private:
+        ifstream file_name_in;
+        ofstream file_name_out;
+    public:
 };
 
 #endif
