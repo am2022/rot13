@@ -1,8 +1,6 @@
 #ifndef CODE_H
 #define CODE_H
 
-#pragma once
-
 #include <iostream>
 using namespace std;
 
