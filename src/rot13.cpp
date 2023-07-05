@@ -23,6 +23,7 @@ int main(){
         if(a_file_out[0] == 'Y' || a_file_out[0] == 'y'){
             cout<<"enter file name:";
             cin>>file_out;
+            file fout(file_in, file_out);
         }
         else{
             file fout(file_in);
