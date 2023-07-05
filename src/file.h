@@ -4,6 +4,7 @@
 #pragma once
 #include <iostream>
 #include <fstream>
+#include "code.cpp"
 
 using namespace std;
 
