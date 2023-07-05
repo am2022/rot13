@@ -13,6 +13,7 @@ class file{
         ofstream file_name_out;
     public:
         file(string fname_in, string fname_out);
+        file(string fname_in);
 };
 
 #endif
