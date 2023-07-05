@@ -24,6 +24,9 @@ int main(){
             cout<<"enter file name:";
             cin>>file_out;
         }
+        else{
+            file fout(file_in);
+        }
     }
 
     cout<<"enter the text that you want:";
