@@ -17,6 +17,7 @@ class file{
         file(string fname_in, string fname_out);
         file(string fname_in);
         int is_fname_in_valid(string fname_in);
+        void code_file();
 };
 
 #endif
