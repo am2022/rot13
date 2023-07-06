@@ -7,8 +7,14 @@ file::file(string fname_in, string fname_out){
 }
 
 file::file(string fname_in){
-    this->file_name_in.open(fname_in);
     this->fnameout_entered = 0;
+    if(! this->is_fname_in_valid(fname_in)){
+        cout<<"file name is invalid!\n";
+        return;
+    }
+    else{
+        this->file_name_in.open(fname_in);
+    }
 }
 
 int file::is_fname_in_valid(string fname_in){
